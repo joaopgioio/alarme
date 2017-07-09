@@ -66,7 +66,7 @@ public class ChatTest {
 	public void arquivoCorrompido() throws RemoteException {
 		Rede rede = mockRede(true);
 
-		// Preparar ambiente
+		// Preparar ambiente - afddg
 		Chat chat = new Chat("8.8.8.8", rede);
 		reset(rede);
 
