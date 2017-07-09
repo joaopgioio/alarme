@@ -10,7 +10,7 @@ public class Chat {
 	public Chat(String ip, Rede rede) {
 		this.rede = rede;
 		
-		if (!rede.abrirConexao(ip)) {
+		if (!rede.abrirConexao("1.1.1.1")) {
 			throw new ExcecaoChat();
 		}
 	}
